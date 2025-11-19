@@ -39,12 +39,21 @@ public class ArrayPrograms {
 					 
 					 System.out.print(arr[i] +", ");
 					 
-			}	 
+			}	
 				
-			}
+			 }
 		 }
 	}
-			
+		 public static void m1(String name) 
+		 {
+			 int size=name.length()-1;
+			 for(int i=size;i>=0;i--)
+			 {
+				 System.out.println(name.charAt(i));
+			 }
+		 
+	}
+	
 		
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

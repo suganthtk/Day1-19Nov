@@ -50,7 +50,7 @@ public class ArrayPrograms {
 		// TODO Auto-generated method stub
 		removeElement();
 		FindDuplicate();
-		
+		System.out.println("Hello World");
 
 	}
 

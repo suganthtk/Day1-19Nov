@@ -11,15 +11,26 @@ public class ArrayPrograms {
 						 
 						 System.out.print(arr[i] +", ");
 						 
-				          }	 
-					
-				  }
-				
+				          }	 				
+				  }				
 			}
+					 			 
 		}
+		
+		public static void reverseString() {
+			String s = "String";
+			String r = "";
+			for(int i=0; i< s.length(); i++) {
+				r = s.charAt(i) + r; 
+			}
+	        System.out.println(r);
+		}
+		
 		public static void main(String[] args) {
 			// TODO Auto-generated method stub
 			FindDuplicate();
+			reverseString();
+			
 		}
 
 
